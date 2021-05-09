@@ -8,17 +8,17 @@
     <version>1.0</version>
     <developers>
         <developer>
-            <id>jeszy</id>
-            <name>Péter Jeszenszky</name>
-            <email>jeszenszky.peter@inf.unideb.hu</email>
+            <id>pp</id>
+            <name>Petra Papp</name>
+            <email>papppetra14@gmail.com</email>
             <organization>Faculty of Informatics, University of Debrecen</organization>
             <organizationUrl>https://www.inf.unideb.hu/</organizationUrl>
         </developer>
     </developers>
     <scm>
-        <url>https://github.com/jeszy75/jdbi-examples</url>
-        <connection>scm:git:https://github.com/jeszy75/jdbi-examples.git</connection>
-        <developerConnection>scm:git:https://github.com/jeszy75/jdbi-examples.git</developerConnection>
+        <url>https://github.com/papppetra/jdbi-examples.git</url>
+        <connection>scm:git:https://github.com/papppetra/jdbi-examples.git</connection>
+        <developerConnection>scm:git:https://github.com/papppetra/jdbi-examples.git</developerConnection>
     </scm>
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -69,6 +69,16 @@
             <artifactId>slf4j-tinylog</artifactId>
             <version>${tinylog.version}</version>
             <scope>runtime</scope>
+        </dependency>
+        <dependency>
+            <groupId>com.github.javafaker</groupId>
+            <artifactId>javafaker</artifactId>
+            <version>1.0.2</version>
+        </dependency>
+        <dependency>
+            <groupId>commons-codec</groupId>
+            <artifactId>commons-codec</artifactId>
+            <version>1.15</version>
         </dependency>
     </dependencies>
     <build>
